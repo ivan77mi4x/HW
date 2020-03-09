@@ -1,4 +1,4 @@
-#просортувати число
+#сортувати цифри числа
 
 number = 5896
 ascending = "".join(sorted(str(number)))
