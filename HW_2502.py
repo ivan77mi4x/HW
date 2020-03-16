@@ -9,14 +9,11 @@ def is_uppercase(inp):
     k = 0
     for i in inp:
         if ('a' <= i <= 'z') or ('A' <= i <= 'Z'):
-            k = k + 1
+            k = 1
     if k == 0:
         return True
-    elif inp.isupper():
-        return True
-    else:
-        return False
-
+    return inp.isupper()
+        
 print(inp, is_uppercase(inp))
 
 

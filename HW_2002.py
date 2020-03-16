@@ -1,13 +1,13 @@
-#Double Char
+#Double Char 
 
 s = "hello world"
 
 def double_char(s):
     s_dbl = []
 
-    for i in range(len(s)):
-        s_dbl.append(s[i])
-        s_dbl.append(s[i])
+    for i in s:
+        s_dbl.append(i)
+        s_dbl.append(i)
 
     return("".join(s_dbl))
 
@@ -27,13 +27,14 @@ def list_animals(animals):
 print(list_animals(animals))
 
 
+
 #Grasshopper - Summation
 
 def summation(num):
     pass # Code here
     sum = 0
-    for i in range(1,num+1,1):
+    for i in range(1,num+1):
         sum = sum + i
     return(sum)
 
-print(summation(100))
+print(summation(4))

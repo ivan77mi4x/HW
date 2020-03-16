@@ -1,7 +1,7 @@
 #fibo
 
 def fib(n):
-    if n<3:
+    if n < 3:
         return 1
     return fib(n-1) + fib(n-2)
 
@@ -18,24 +18,19 @@ def solution(number):
     return sum(x for x in range(number) if x % 3 == 0 or x % 5 == 0)
 
 
-
 #Multiples of 3 or 5
 
 number = 11
 print(range(number))
 
 def solution(number):
-
     sum = 0
-    
     for i in range(number):
         if i % 3 == 0 or i % 5 == 0:
             sum = sum + i
-
     return(sum)
 
 print(solution(number))
-
 
 
 

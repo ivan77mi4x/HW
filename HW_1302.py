@@ -8,10 +8,6 @@ def filter_words(st):
 print(filter_words("TeTG test HG"))
 
 
-print ("    ")
-print ("next task next task next task")
-print ("    ")
-
 #13.02 - Unfinished Loop - Bug Fixing #1
 
 def create_array(n):
@@ -23,11 +19,6 @@ def create_array(n):
     return res
 
 print(create_array(10))
-
-
-print ("    ")
-print ("next task next task next task")
-print ("    ")
 
 
 
